@@ -1,0 +1,49 @@
+:root {
+    --color-light-green: #66e2dc;
+    --color-light-red: #fa7453;
+    --color-light-yellow: #ffb964;
+    --color-light-white: #ffffff;
+    --color-black: #000;
+    --color-darkgray: #081a24;
+    --color-violet: #7f00ff;
+}
+
+.skill--content {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col1 {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 120px 120px;
+    justify-content: center;
+}
+
+.skill--content .col1 {
+    width: 400px;
+    height: 300px;
+}
+
+.skill--content h1 {
+    margin-bottom: 20px;
+}
+
+.col1 div {
+    padding-top: 20px;
+    background-color: var(--color-light-white);
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.col1 :hover {
+    background-color: rgb(255, 213, 0);
+}
+
+.col1 p {
+    color: var(--color-black);
+    padding-top: 10px;
+}

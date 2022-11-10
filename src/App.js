@@ -1,12 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Skills from "./pages/Skills";
+import "./App.css";
+import Home from "./pages/home/Home";
+import About from "./pages/About/About";
+import Skills from "./pages/Skills/Skills";
 import Projects from "./pages/Projects";
 import Error from "./pages/Error";
 import Main from "./layout/Main";
-import Project from "./pages/Project";
+import Project from "./components/Project/Project";
 
 function App() {
   return (

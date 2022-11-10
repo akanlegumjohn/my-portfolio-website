@@ -1,6 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 
-import projects from "../utils/projects";
+import projects from "../../utils/projects";
 
 const Project = () => {
   const { projectId } = useParams();

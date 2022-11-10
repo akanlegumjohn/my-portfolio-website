@@ -1,0 +1,36 @@
+:root {
+    --color-light-green: #66e2dc;
+    --color-light-red: #fa7453;
+    --color-light-yellow: #ffb964;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray: #a29d9d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1rem;
+}
+
+.nav--item {
+    padding: 10px 20px 10px 0px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: var(--color-gray);
+    text-decoration: none;
+}
+
+.active--nav--link {
+    padding: 10px 20px 10px 0px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: var(--color-light-red);
+}
+
+.logo {
+    float: left;
+    margin-left: 40px;
+}

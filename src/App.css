@@ -1,20 +1,5 @@
-.navbar {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 1rem;
-}
-
-.nav--item {
-    padding: 10px 20px 10px 0px;
-    margin-bottom: 20px;
-    color: gray;
-    text-decoration: none;
-}
-
-.active--nav--link {
-    padding: 10px 20px 10px 0px;
-    margin-bottom: 20px;
-    color: red;
+body {
+    background-color: rgba(189, 186, 191, 0.943);
 }
 
 .project--article {

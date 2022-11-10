@@ -1,0 +1,52 @@
+:root {
+    --color-light-green: #66e2dc;
+    --color-light-red: #fa7453;
+    --color-light-yellow: #ffb964;
+    --color-dim-white: #f3f5f8;
+    --color-black: #000;
+    --color-darkgray: #081a24;
+    --color-violet: #7f00ff;
+}
+
+footer {
+    background-color: var(--color-darkgray);
+    color: var(--color-dim-white);
+    height: 200px;
+    padding-top: 20px;
+}
+
+.contact--info h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.social--media-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    margin: 50px 50% -80px 43%;
+    border-radius: 20px;
+}
+
+.social--media-icons div {
+    padding: 0px 35px 0px 35px;
+}
+
+.social--media-icons div :hover {
+    background-color: var(--color-light-red);
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.copyright {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.bottom--text {
+    margin-top: 100px;
+    text-align: center;
+}
